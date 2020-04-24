@@ -49,4 +49,5 @@ connect mongo with the app.js(root file) using mongoose.connect which create dat
 
 # Make route for getting all the tasks created in the database for student and mentors
 
+# Make logout
 
