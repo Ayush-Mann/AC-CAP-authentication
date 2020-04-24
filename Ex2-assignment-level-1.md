@@ -26,3 +26,26 @@ In this topic, you have to build a small web API from scratch for the following 
 ## BLOCK-writeTextAnswer
 
 Here write the psuedo code you would follow to build the above API.
+make the basic layout using express generarors
+
+Make model for Student having fields name , email, password, batch num
+
+Make model for Mentor having fields name , email, password`
+
+Make model(Todo) for the tasks having fields name, iscompleted
+
+connect mongo with the app.js(root file) using mongoose.connect which create database if not present
+
+Make entries in the mentor collection in the database for three mentors
+
+Make controllers for students and mentors
+
+Make the route for signup and login for the student 
+
+Make the route for login mentor
+
+Make the route for creating a task for mentor
+
+Make route for getting all the tasks created in the database for student and mentors
+
+
