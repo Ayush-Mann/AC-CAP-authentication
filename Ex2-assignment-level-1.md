@@ -27,27 +27,34 @@ In this topic, you have to build a small web API from scratch for the following 
 
 Here write the psuedo code you would follow to build the above API.
 
-# Make the basic layout using express generarors
+### Make the basic layout using express generarors
 
-# Make model for Student having fields name , email, password, batch num
+### Make model for Student having fields name , email, password, batch num
 
-# Make model for Mentor having fields name , email, password`
+### Make model for Mentor having fields name , email, password`
 
-# Make model(Todo) for the tasks having fields name, iscompleted
+### Make model for tasks having fields name and iscompleted defaulted to false
 
-connect mongo with the app.js(root file) using mongoose.connect which create database if not present
+### connect mongo with the app.js(root file) using mongoose.connect which create database if not present
 
-# Make entries in the mentor collection in the database for three mentors
+### Make controllers for students and mentors
 
-# Make controllers for students and mentors
+### Make the middlewares 
+```
+1. for generating token and verifying token
 
-# Make the route for signup and login for the student 
+```
 
-# Make the route for login mentor
+### Make the route for signup and login for the student 
 
-# Make the route for creating a task for mentor
+### Make the route for mentor login **along with seeding of mentors**
 
-# Make route for getting all the tasks created in the database for student and mentors
 
-# Make logout
+### Make the route for creating a task by mentor
+
+### Make route for getting all the tasks created in the database for student and mentors
+
+
+
+### Make logout
 
